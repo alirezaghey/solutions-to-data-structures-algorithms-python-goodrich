@@ -11,3 +11,7 @@ for doing the same thing.
 determines if there is a distinct pair of numbers in the sequence whose
 product is odd.
 [Solution](C-1.14.py)
+
+**C-1.15** Write a Python function that takes a sequence of numbers and determines
+if all the numbers are different from each other (that is, they are distinct).
+[Solution](C-1.15.py)
