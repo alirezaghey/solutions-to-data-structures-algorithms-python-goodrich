@@ -87,3 +87,11 @@ ple, if given the string "Let s try, Mike.", this function would return
 the console and determines if they can be used in a correct arithmetic
 formula (in the given order), like “a + b = c,” “a = b − c,” or “a ∗ b = c.”
 [Solution](C-1.26.py)
+
+**C-1.27** In Section 1.8, we provided three different implementations of a generator
+that computes factors of a given integer. The third of those implementa-
+tions, from page 41, was the most efficient, but we noted that it did not
+yield the factors in increasing order. Modify the generator so that it reports
+factors in increasing order, while maintaining its general performance ad-
+vantages.
+[Solution](C-1.27.py)
