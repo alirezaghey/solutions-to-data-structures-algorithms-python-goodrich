@@ -37,3 +37,7 @@ val *= factor
 Explain why or why not.
 
 **Answer:** This wouldn't have worked. `val` is an alias to the actual element in `data` and assigning a new object to it will only change `val`'s value.
+
+**C-1.18** Demonstrate how to use Python’s list comprehension syntax to produce
+the list [0, 2, 6, 12, 20, 30, 42, 56, 72, 90].
+[Solution](C-1.18.py)
