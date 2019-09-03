@@ -23,7 +23,17 @@ the creation of a new instance (not the mutation of an existing instance).
 How is it still possible, then, that our implementation of scale changes the
 actual parameter sent by the caller?
 
-The reason why the actual parameter sent by the function caller is changed is that the
+**Answer:** The reason why the actual parameter sent by the function caller is changed is that the
 parameter is a list (array) and that particular element of the array is assigned to a
 new numeric object.
 
+**C-1.17** Had we implemented the scale function (page 25) as follows, does it work
+properly?
+```py
+def scale(data, factor):
+for val in data:
+val *= factor
+```
+Explain why or why not.
+
+**Answer:** This wouldn't have worked. `val` is an alias to the actual element in `data` and assigning a new object to it will only change `val`'s value.
