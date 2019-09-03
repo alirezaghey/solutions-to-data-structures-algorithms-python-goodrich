@@ -71,3 +71,7 @@ is out of bounds, the program should catch the exception that results, and
 print the following error message:
 “Don’t try buffer overflow attacks in Python!”
 [Solution](C-1.23.py)
+
+**C-1.24** Write a short Python function that counts the number of vowels in a given
+character string.
+[Solution](C-1.24.py)
