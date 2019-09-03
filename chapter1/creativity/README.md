@@ -64,3 +64,10 @@ until an EOFError is raised, and then outputs those lines in reverse order
 storing int values, and returns the dot product of a and b. That is, it returns
 an array c of length n such that c[i] = a[i] · b[i], for i = 0, . . . , n − 1.
 [Solution](C-1.22.py)
+
+**C-1.23** Give an example of a Python code fragment that attempts to write an ele-
+ment to a list based on an index that may be out of bounds. If that index
+is out of bounds, the program should catch the exception that results, and
+print the following error message:
+“Don’t try buffer overflow attacks in Python!”
+[Solution](C-1.23.py)
