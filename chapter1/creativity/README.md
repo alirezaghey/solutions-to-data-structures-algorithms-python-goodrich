@@ -41,3 +41,8 @@ Explain why or why not.
 **C-1.18** Demonstrate how to use Python’s list comprehension syntax to produce
 the list [0, 2, 6, 12, 20, 30, 42, 56, 72, 90].
 [Solution](C-1.18.py)
+
+**C-1.19** Demonstrate how to use Python’s list comprehension syntax to produce
+the list [ a , b , c , ..., z ], but without having to type all 26 such
+characters literally.
+[Solution](C-1.19.py)
