@@ -54,3 +54,8 @@ more basic function randint(a, b) that returns a uniformly random integer
 from a to b (including both endpoints). Using only the randint function,
 implement your own version of the shuffle function.
 [Solution](C-1.20.py)
+
+**C-1.21** Write a Python program that repeatedly reads lines from standard input
+until an EOFError is raised, and then outputs those lines in reverse order
+(a user can indicate end of input by typing ctrl-D).
+[Solution](C-1.21.py)
