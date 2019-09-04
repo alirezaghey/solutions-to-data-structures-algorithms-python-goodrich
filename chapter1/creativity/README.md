@@ -95,3 +95,14 @@ yield the factors in increasing order. Modify the generator so that it reports
 factors in increasing order, while maintaining its general performance ad-
 vantages.
 [Solution](C-1.27.py)
+
+
+**C-1.28** The p-norm of a vector <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;v&space;=&space;(v_1,v_2,...,v_n)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;v&space;=&space;(v_1,v_2,...,v_n)" title="v = (v_1,v_2,...,v_n)" /></a> in n-dimensional space is defined as
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=||v||=\sqrt[p]{v_1^p&plus;v_2^p&plus;...&plus;v_n^p}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?||v||=\sqrt[p]{v_1^p&plus;v_2^p&plus;...&plus;v_n^p}" title="||v||=\sqrt[p]{v_1^p+v_2^p+...+v_n^p}" /></a>
+
+For the special case of p = 2, this results in the traditional Euclidean
+norm, which represents the length of the vector. For example, the Euclidean norm of a two-dimensional
+with coordinates (4, 3) has a Euclidean norm of <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\sqrt[]{4^2&space;&plus;&space;3^2}&space;=&space;\sqrt[]{16&space;&plus;&space;9}&space;=&space;\sqrt[]{25}&space;=&space;5" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\sqrt[]{4^2&space;&plus;&space;3^2}&space;=&space;\sqrt[]{16&space;&plus;&space;9}&space;=&space;\sqrt[]{25}&space;=&space;5" title="\sqrt[]{4^2 + 3^2} = \sqrt[]{16 + 9} = \sqrt[]{25} = 5" /></a>.
+Give an implementation of a function named norm such that norm(v, p) returns the p-norm value of v and norm(v) returns the Euclidean norm of v. You may assume that v is a list of numbers.
+[Solution](C-1.28.py)
