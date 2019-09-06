@@ -9,28 +9,44 @@
 class Flower:
     """A flower"""
 
-    def __init__(self: Flower, name: str, numOfPetals: int, price: float):
+    def __init__(self, name: str, numOfPetals: int, price: float):
         """Creates a new Flower instance"""
         self._name = name
         self._numOfPetals = numOfPetals
         self._price = price
 
 # setter methods
-    def set_name(self: Flower, name: str) -> None:
+    def set_name(self, name: str) -> None:
         self._name = name
 
-    def set_numOfPetals(self: Flower, numOfPetals: int) -> None:
+    def set_numOfPetals(self, numOfPetals: int) -> None:
         self._numOfPetals = numOfPetals
 
-    def set_price(self: Flower, price: float) -> None:
+    def set_price(self, price: float) -> None:
         self._price = price
 
 # getter methods
-    def get_name(self: Flower) -> str:
+    def get_name(self) -> str:
         return self._name
 
-    def get_numOfPetals(self: Flower) -> int:
+    def get_numOfPetals(self) -> int:
         return self._numOfPetals
 
-    def get_price(self: Flower) -> float:
+    def get_price(self) -> float:
         return self._price
+
+# Overriding builtin methods
+    def __str__(self):
+        return self.get_name() + " has " + str(self.get_numOfPetals()) + " petals and costs " + str(self.get_price()) + " imaginary units."
+
+
+# Tests
+if __name__ == "__main__":
+    flower = Flower("Abracadabra", 13, 953.78)
+    print(flower)
+    flower.set_price(54.3)
+    print(flower)
+    flower.set_name("newName")
+    flower.set_numOfPetals(345)
+    print(flower)
+    print(flower.get_name(), flower.get_numOfPetals(), flower.get_price())
