@@ -76,3 +76,8 @@ The reason is that `__add__` is only invoked on the left-hand operand and when t
 that the expression v 3 returns a new vector with coordinates that are 3
 times the respective coordinates of v.
 [Solution](R-2.12.py)
+
+**R-2.13** Exercise R-2.12 asks for an implementation of mul , for the Vector
+class of Section 2.3.3, to provide support for the syntax v 3. Implement
+the rmul method, to provide additional support for syntax 3 v.
+[Solution](R-2.13.py)
