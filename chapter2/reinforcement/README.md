@@ -34,3 +34,10 @@ were a negative number, that would have the effect of raising the balance
 on the account. Revise the implementation so that it raises a ValueError if
 a negative value is sent.
 [Solution](R-2.6.py)
+
+**R-2.7** The CreditCard class of Section 2.3 initializes the balance of a new ac-
+count to zero. Modify that class so that a new account can be given a
+nonzero balance using an optional fifth parameter to the constructor. The
+four-parameter constructor syntax should continue to produce an account
+with zero balance.
+[Solution](R-2.7.py)
