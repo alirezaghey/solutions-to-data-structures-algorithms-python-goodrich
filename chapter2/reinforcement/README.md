@@ -71,3 +71,8 @@ generates a new vector.
 
 The reason is that `__add__` is only invoked on the left-hand operand and when the left-hand operand is a simple list, the default `__add__` method for lists is invoked which does not know how to handle a `Vector` as a right-hand operand. When we implement `__radd__` in `Vector`, execution is given to it after `__add__` in `list` does not know what to do.  
 [Solution](R-2.11.py)
+
+**R-2.12** Implement the mul method for the Vector class of Section 2.3.3, so
+that the expression v 3 returns a new vector with coordinates that are 3
+times the respective coordinates of v.
+[Solution](R-2.12.py)
