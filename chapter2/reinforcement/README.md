@@ -60,3 +60,14 @@ difference between two vectors.
 that the expression −v returns a new vector instance whose coordinates
 are all the negated values of the respective coordinates of v.
 [Solution](R-2.10.py)
+
+**R-2.11** In Section 2.3.3, we note that our Vector class supports a syntax such as
+v = u + [5, 3, 10, −2, 1], in which the sum of a vector and list returns
+a new vector. However, the syntax v = [5, 3, 10, −2, 1] + u is illegal.
+Explain how the Vector class definition can be revised so that this syntax
+generates a new vector.
+
+**Answer:** In addition to the `__add__` method, the `Vector` class needs to overwrite the `__radd__` method to be able to have a simple list as the left-hand operand in an addition operation with a `Vector`.
+
+The reason is that `__add__` is only invoked on the left-hand operand and when the left-hand operand is a simple list, the default `__add__` method for lists is invoked which does not know how to handle a `Vector` as a right-hand operand. When we implement `__radd__` in `Vector`, execution is given to it after `__add__` in `list` does not know what to do.  
+[Solution](R-2.11.py)
