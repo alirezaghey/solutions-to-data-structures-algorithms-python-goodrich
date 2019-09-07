@@ -41,3 +41,11 @@ nonzero balance using an optional fifth parameter to the constructor. The
 four-parameter constructor syntax should continue to produce an account
 with zero balance.
 [Solution](R-2.7.py)
+
+**R-2.8** Modify the declaration of the first for loop in the CreditCard tests, from
+Code Fragment 2.3, so that it will eventually cause exactly one of the three
+credit cards to go over its credit limit. Which credit card is it?
+
+**Answer:** By changing the upper bound of the for loop to 59, the third wallet
+will go over its limit when the loop variable reaches 58.
+[Solution](R-2.8.py)
