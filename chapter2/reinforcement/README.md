@@ -49,3 +49,9 @@ credit cards to go over its credit limit. Which credit card is it?
 **Answer:** By changing the upper bound of the for loop to 59, the third wallet
 will go over its limit when the loop variable reaches 58.
 [Solution](R-2.8.py)
+
+
+**R-2.9** Implement the sub method for the Vector class of Section 2.3.3, so
+that the expression u−v returns a new vector instance representing the
+difference between two vectors.
+[Solution](R-2.9.py)
