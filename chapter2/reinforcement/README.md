@@ -81,3 +81,8 @@ times the respective coordinates of v.
 class of Section 2.3.3, to provide support for the syntax v 3. Implement
 the rmul method, to provide additional support for syntax 3 v.
 [Solution](R-2.13.py)
+
+**R-2.14** Implement the mul method for the Vector class of Section 2.3.3, so
+that the expression u v returns a scalar that represents the dot product of
+the vectors, that is, <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\sum_{i=1}^{d}&space;u_{i}&space;\cdot&space;v_{i}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\sum_{i=1}^{d}&space;u_{i}&space;\cdot&space;v_{i}" title="\sum_{i=1}^{d} u_{i} \cdot v_{i}" /></a>
+[Solultion](R-2.14.py)
