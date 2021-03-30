@@ -31,8 +31,8 @@ new numeric object.
 properly?
 ```py
 def scale(data, factor):
-for val in data:
-val *= factor
+    for val in data:
+    val *= factor
 ```
 Explain why or why not.
 
